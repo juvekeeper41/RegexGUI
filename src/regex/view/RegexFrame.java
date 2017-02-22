@@ -18,6 +18,15 @@ public class RegexFrame extends JFrame
 	
 	private void setupFrame()
 	{
-		
+		this.setContentPane(appPanel);
+		this.setSize(new Dimension(700, 700));
+		this.setTitle("Regex Model");
+		this.setResizable(false);
+		this.setVisible(true);
+	}
+	
+	public RegexController getBaseController()
+	{
+		return baseController;
 	}
 }

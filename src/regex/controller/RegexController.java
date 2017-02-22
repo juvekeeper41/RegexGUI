@@ -6,9 +6,9 @@ import regex.view.RegexPanel;
 
 public class RegexController 
 {
-	
+	RegexFrame appFrame;
 	public void start()
 	{
-		
+		appFrame = new RegexFrame(this);
 	}
 }
