@@ -11,4 +11,6 @@ public class RegexController
 	{
 		appFrame = new RegexFrame(this);
 	}
+	
+	//Regex practice method at the bottom of RegexPanel
 }
